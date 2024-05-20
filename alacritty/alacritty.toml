@@ -1,0 +1,19 @@
+working_directory = "/Users/andreworals/Documents/Dev"
+
+[shell]
+program = "/bin/zsh"
+args = ["-l", "-N"]
+
+[window]
+padding = { x = 5, y = 25 }
+decorations = "Transparent"
+opacity = 0.7
+blur = true
+option_as_alt = "OnlyLeft"
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Retina" }
+
+[colors]
+primary.foreground = "#ffffff"
+primary.background = "#282935"

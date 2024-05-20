@@ -1,0 +1,177 @@
+# Common recent settings file for Wireshark 4.2.2.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Users/andreworals/Downloads/airserver_debug.pcapng.gz
+recent.capture_file: /Users/andreworals/Downloads/wireshark_usbmon0_20220623050801_Ig4VNx.pcapng
+recent.capture_file: /Users/andreworals/Downloads/wireshark_usbmon0_20220623050723_UwxfNO.pcapng
+recent.capture_file: /Users/andreworals/Downloads/capture.pcap
+recent.capture_file: /Users/andreworals/out.pcap
+
+######## Recent capture filters (latest first), cannot be altered through command line ########
+
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: ip.src == 172.16.1.54 && tcp.port == 8006
+recent.display_filter: (ip.src==172.16.1.151 || ip.dst==172.16.1.54) && udp.port == 53
+recent.display_filter: ip.src
+recent.display_filter: (ip.src==172.16.1.151 || ip.dst==172.16.1.54) && ip.proto==UDP
+recent.display_filter: ip.src==172.16.1.151 || ip.dst==172.16.1.54
+recent.display_filter: ip.dst==172.16.1.54 || ip.dst==172.16.1.54
+recent.display_filter: ip.dst==172.16.1.54
+recent.display_filter: ip.src == 10.5.5.100
+recent.display_filter: ip.src == 10.5.5.101
+recent.display_filter: ip.dst==184.84.224.27
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 0
+gui.geometry_main_y: 25
+gui.geometry_main_width: 1920
+gui.geometry_main_height: 1027
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: TRUE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if Wireshark is unable to capture.
+# TRUE or FALSE (case-insensitive).
+sys.warn_if_no_capture: FALSE
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: FALSE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of ManageInterfacesDialog window.
+# Decimal integers.
+gui.geom.ManageInterfacesDialog.x: 701
+gui.geom.ManageInterfacesDialog.y: 186
+gui.geom.ManageInterfacesDialog.width: 750
+gui.geom.ManageInterfacesDialog.height: 425
+# TRUE or FALSE (case-insensitive).
+gui.geom.ManageInterfacesDialog.maximized: FALSE
+
+# Geometry and maximized state of SupportedProtocolsDialog window.
+# Decimal integers.
+gui.geom.SupportedProtocolsDialog.x: 0
+gui.geom.SupportedProtocolsDialog.y: 25
+gui.geom.SupportedProtocolsDialog.width: 1440
+gui.geom.SupportedProtocolsDialog.height: 847
+# TRUE or FALSE (case-insensitive).
+gui.geom.SupportedProtocolsDialog.maximized: FALSE
+
+# Geometry and maximized state of DisplayFilterExpressionDialog window.
+# Decimal integers.
+gui.geom.DisplayFilterExpressionDialog.x: 310
+gui.geom.DisplayFilterExpressionDialog.y: 0
+gui.geom.DisplayFilterExpressionDialog.width: 1280
+gui.geom.DisplayFilterExpressionDialog.height: 1058
+# TRUE or FALSE (case-insensitive).
+gui.geom.DisplayFilterExpressionDialog.maximized: FALSE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 310
+gui.geom.FollowStreamDialog.y: 23
+gui.geom.FollowStreamDialog.width: 1280
+gui.geom.FollowStreamDialog.height: 981
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 620
+gui.geom.PreferencesDialog.y: 280
+gui.geom.PreferencesDialog.width: 680
+gui.geom.PreferencesDialog.height: 521
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 575
+gui.geom.DecodeAsDialog.y: 270
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
+# Geometry and maximized state of ExpertInfoDialog window.
+# Decimal integers.
+gui.geom.ExpertInfoDialog.x: 0
+gui.geom.ExpertInfoDialog.y: 0
+gui.geom.ExpertInfoDialog.width: 1440
+gui.geom.ExpertInfoDialog.height: 900
+# TRUE or FALSE (case-insensitive).
+gui.geom.ExpertInfoDialog.maximized: TRUE
+
+# Geometry and maximized state of IOGraphDialog window.
+# Decimal integers.
+gui.geom.IOGraphDialog.x: 525
+gui.geom.IOGraphDialog.y: 175
+gui.geom.IOGraphDialog.width: 850
+gui.geom.IOGraphDialog.height: 640
+# TRUE or FALSE (case-insensitive).
+gui.geom.IOGraphDialog.maximized: FALSE
+
+# Geometry and maximized state of ColoringRulesDialog window.
+# Decimal integers.
+gui.geom.ColoringRulesDialog.x: 625
+gui.geom.ColoringRulesDialog.y: 73
+gui.geom.ColoringRulesDialog.width: 1280
+gui.geom.ColoringRulesDialog.height: 784
+# TRUE or FALSE (case-insensitive).
+gui.geom.ColoringRulesDialog.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 0
+gui.geom.PacketDialog.y: 0
+gui.geom.PacketDialog.width: 1920
+gui.geom.PacketDialog.height: 1080
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: TRUE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
