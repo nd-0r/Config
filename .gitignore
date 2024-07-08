@@ -5,4 +5,10 @@ nvim
 configstore
 gatsby
 gtk-2.0
+automatic_backups
+QtProject
+qBittorrent
+.DS_Store
+rstudio
+
 

@@ -1,5 +1,4 @@
-inherits = "sonokai"
+inherits = "sonokai_default"
 
 [palette]
-# bg0 = "#282935"
-bg0 = ""
+bg0 = "#181925"

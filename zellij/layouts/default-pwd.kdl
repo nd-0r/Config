@@ -1,0 +1,10 @@
+layout {
+    pane_template name="pwd-pane" {
+        command "zsh"
+        arguments "-c" "zellij action rename-pane $(pwd); zsh -i"
+    }
+    pwd-pane
+    pane size=1 borderless=true {
+        plugin location="compact-bar"
+    }
+}
